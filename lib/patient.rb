@@ -21,8 +21,9 @@ def appointmens
     appointment.patient == self
   end 
   
-  def doctors
-    
+  def doctor
+    Appointment.all.map do |appointment|
+      appointment.doctor
   end 
     
 end 
