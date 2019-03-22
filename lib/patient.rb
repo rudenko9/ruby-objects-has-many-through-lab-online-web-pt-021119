@@ -20,6 +20,7 @@ def appointmens
   Appointment.all.select do |appointment|
     appointment.patient == self
   end 
+end 
   
   def doctor
     Appointment.all.map do |appointment|
