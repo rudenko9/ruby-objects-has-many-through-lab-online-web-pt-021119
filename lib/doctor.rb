@@ -14,13 +14,15 @@ def new_appointment(date, patient)
     Patient.new (self, date, patient)
 end 
   def appointments
-    Appointments.all.select do |appointment|
+    Appointment.all.select do |appointment|
       appointment.doctor == self 
     end 
   end 
   
   def patients 
-    Appointment
+    Appointment.all.map do |appointment|
+      appointment.docotr
+    end 
   end 
   
 end
