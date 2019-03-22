@@ -15,4 +15,8 @@ class Patient
     Appointment.date.doctor
     self.appointmens
 end 
+
+def appointmens
+  
+end 
 end 
