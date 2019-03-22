@@ -18,7 +18,8 @@ end
 
 def appointmens
   Appointment.all.select do |appointment|
-    appointment.patient 
+    appointment.patient == self
+  end 
     
 end 
 end 
