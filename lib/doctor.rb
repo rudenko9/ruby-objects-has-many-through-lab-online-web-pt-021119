@@ -19,4 +19,8 @@ end
     end 
   end 
   
+  def patients 
+    Appointment
+  end 
+  
 end
