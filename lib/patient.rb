@@ -18,6 +18,7 @@ end
 
 def appointmens
   Appointment.all.select do |appointment|
+    appointment.patient 
     
 end 
 end 
