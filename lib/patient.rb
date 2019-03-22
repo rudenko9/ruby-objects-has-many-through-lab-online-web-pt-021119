@@ -26,6 +26,6 @@ end
     Appointment.all.map do |appointment|
       appointment.doctor
   end 
+    end 
     
-end 
 end 
