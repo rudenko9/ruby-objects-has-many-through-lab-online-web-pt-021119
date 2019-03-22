@@ -1,5 +1,5 @@
 class Appointment 
-  attr_accessor :date = "Monday, August 1st", :
+  attr_accessor :date = "Monday, August 1st", :patient, :doctor
   
   
 end 
